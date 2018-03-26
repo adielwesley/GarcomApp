@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ufam.garcomapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.edu.ufam.garcomapp.TelaMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.CardapioActivity"
+            android:label="@string/title_activity_cardapio" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.PratoActivity"
+            android:label="@string/title_activity_prato" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.NovoPratoActivity2"
+            android:label="@string/title_activity_novo_prato_activity2" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.NovoPratoActivity1"
+            android:label="@string/title_activity_novo_prato_activity1" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.AlterarPratoActivity"
+            android:label="@string/title_activity_alterar_prato" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.NovoPedidoActivity"
+            android:label="@string/title_activity_novo_pedido" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.PedidosFeitosActivity"
+            android:label="@string/title_activity_pedidos_feitos" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.DetalhesDePedidoActivity"
+            android:label="@string/title_activity_detalhes_de_pedido" >
+        </activity>
+        <activity
+            android:name="br.edu.ufam.garcomapp.AlterarPedidoActivity"
+            android:label="@string/title_activity_alterar_pedido" >
+        </activity>
+    </application>
+
+</manifest>

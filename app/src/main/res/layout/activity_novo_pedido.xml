@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.edu.ufam.garcomapp.NovoPedidoActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/novopedido_editText_nummesa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/numerodamesa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/selecioneprato"
+        android:id="@+id/novopedido_textView_selecioneoprato"
+        android:layout_below="@+id/novopedido_textView_precototal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff919191" />
+
+    <Button
+        android:onClick="cadastrarOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:id="@+id/novopedido_button_cadastrar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/novopedido_spinner_pratos"
+        android:layout_below="@+id/novopedido_textView_selecioneoprato"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:onClick="adicionarOnClick"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionar"
+        android:id="@+id/novopedido_button_adicionar"
+        android:layout_below="@+id/novopedido_editText_quantidade"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="cancelarOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:id="@+id/novopedido_button_cancelar"
+        android:layout_alignTop="@+id/novopedido_button_cadastrar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/novopedido_editText_quantidade"
+        android:hint="@string/quantidade"
+        android:layout_below="@+id/novopedido_spinner_pratos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/precoinicial"
+        android:id="@+id/novopedido_textView_precototal"
+        android:layout_below="@+id/novopedido_editText_nummesa"
+        android:layout_alignRight="@+id/novopedido_editText_nummesa"
+        android:layout_alignEnd="@+id/novopedido_editText_nummesa"
+        android:textSize="25sp"
+        android:textColor="#ffd0151e" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/novopedido_listView_pratosadicionados"
+        android:layout_below="@+id/novopedido_button_adicionar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/novopedido_button_addnota"
+        android:background="#ffffffff" />
+
+    <Button
+        android:onClick="adicionarNotaOnClick"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addnota"
+        android:id="@+id/novopedido_button_addnota"
+        android:layout_above="@+id/novopedido_button_cadastrar"
+        android:layout_alignRight="@+id/novopedido_button_cadastrar"
+        android:layout_alignEnd="@+id/novopedido_button_cadastrar" />
+
+</RelativeLayout>

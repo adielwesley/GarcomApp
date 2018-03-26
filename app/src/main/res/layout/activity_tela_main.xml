@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".TelaMainActivity">
+
+    <Button
+        android:onClick="cardapioOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cardapio"
+        android:id="@+id/main_button_cardapio"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/main_button_pedidosemandamento"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="novoPedidoOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novo_pedido"
+        android:id="@+id/main_button_novopedido"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="pedidosFeitosOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pedidos_em_andamento"
+        android:id="@+id/main_button_pedidosemandamento"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/main_button_novopedido"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

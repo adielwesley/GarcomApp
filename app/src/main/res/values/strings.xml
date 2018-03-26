@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Garçom App</string>
+    <string name="action_settings">Configurações</string>
+    <string name="cardapio">Cardápio</string>
+    <string name="novo_pedido">Novo Pedido</string>
+    <string name="pedidos_em_andamento">Pedidos Cadastrados</string>
+    <string name="title_activity_cardapio">Cardápio</string>
+    <string name="novo_prato">Novo Prato</string>
+    <string name="title_activity_prato">Prato</string>
+    <string name="prato">Prato</string>
+    <string name="preco">Preço</string>
+    <string name="peso_gramas">Peso</string>
+    <string name="ingredientes">Inclui</string>
+    <string name="cadastrar_novo_prato">Cadastar Novo Prato</string>
+    <string name="informe_campos">Informe os campos:</string>
+    <string name="prosseguir">Prosseguir</string>
+    <string name="nome_prato">Nome do Prato</string>
+    <string name="peso_em_gramas">Peso (em gramas)</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_novo_prato_activity2">Novo Prato</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="adicione_ingredientess">Adicione os componentes adicionais do prato</string>
+    <string name="ingrediente">Acompanhamento</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="alterar">Alterar</string>
+    <string name="excluir">Excluir</string>
+    <string name="fechar">Fechar</string>
+    <string name="title_activity_alterar_prato">Alterar Prato</string>
+    <string name="novonome">Novo Nome</string>
+    <string name="title_activity_novo_prato_activity1">Novo Prato</string>
+    <string name="title_activity_novo_pedido">Cadastrar Novo Pedido</string>
+    <string name="selecioneprato">Selecione um prato</string>
+    <string name="notas">Notas</string>
+    <string name="addnota">Adicionar Nota</string>
+    <string name="precoinicial">R$ 00,00</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="numerodamesa">Número da Mesa</string>
+    <string name="notadica">Faça anotações aqui</string>
+    <string name="title_activity_pedidos_feitos">Pedidos Por Mesa</string>
+    <string name="title_activity_detalhes_de_pedido">DetalhesDePedidoActivity</string>
+    <string name="valorareceber">Valor a Receber</string>
+    <string name="pratospedidos">Pratos pedidos</string>
+    <string name="nota">Nota</string>
+    <string name="vernota">Ver Nota</string>
+    <string name="atendido">Atendido</string>
+    <string name="title_activity_alterar_pedido">AlterarPedidoActivity</string>
+    <string name="sequiseradicionarumpratoselecione">Para adicionar algum prato, selcione-o</string>
+    <string name="nenhumpedidocadastrado">Nenhum pedido cadastrado</string>
+    <string name="nenhumpratocadastrado">Nenhum prato cadastrado</string>
+
+</resources>

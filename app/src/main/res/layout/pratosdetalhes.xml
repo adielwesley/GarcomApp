@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:focusable="false">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:id="@+id/pratodetalhes_scrollview_textviews"
+        android:layout_weight="0.34">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/pratodetalhes_textView_preco"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/preco"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="R$ 0.00"
+            android:id="@+id/pratodetalhes_textView_precobanco"
+            android:layout_below="@+id/pratodetalhes_textView_preco"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/peso_em_gramas"
+            android:id="@+id/pratodetalhes_textView_peso"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/pratodetalhes_textView_precobanco"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="100"
+            android:id="@+id/pratodetalhes_textView_pesobanco"
+            android:layout_below="@+id/pratodetalhes_textView_peso"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ingredientes"
+            android:id="@+id/pratoDetalhes_textView_ingredientes"
+            android:layout_below="@+id/pratodetalhes_textView_pesobanco"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="44dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="exemplo"
+            android:id="@+id/pratodetalhes_textView_ingredientesbanco"
+            android:layout_below="@+id/pratoDetalhes_textView_ingredientes"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|right"
+        android:gravity="center_horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alterar"
+        android:id="@+id/pratodetalhes_button_alterar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/excluir"
+        android:id="@+id/pratodetalhes_button_excluir"
+        android:layout_alignTop="@+id/pratodetalhes_button_fechar"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fechar"
+        android:id="@+id/pratodetalhes_button_fechar" />
+    </LinearLayout>
+
+</LinearLayout>
